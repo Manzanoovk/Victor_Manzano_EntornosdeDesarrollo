@@ -1,21 +1,14 @@
 public class VMB_Circulo {
-
     private int id;
     private double radio;
     private String color;
 
     public VMB_Circulo() {
-        this.radio = 0.0;
-        this.color = "Blanco";
     }
 
-    public VMB_Circulo(double radio, String color) {
-        this.radio = radio;
+    public VMB_Circulo(String color, int id, double radio) {
         this.color = color;
-    }
-
-    public VMB_Circulo(String color, double radio) {
-        this.color = color;
+        this.id = id;
         this.radio = radio;
     }
 
@@ -23,12 +16,12 @@ public class VMB_Circulo {
         return radio;
     }
 
-    public String getColor() {
-        return color;
-    }
-
     public void setRadio(double radio) {
         this.radio = radio;
+    }
+
+    public String getColor() {
+        return color;
     }
 
     public void setColor(String color) {
@@ -45,5 +38,4 @@ public class VMB_Circulo {
         sb.append('}');
         return sb.toString();
     }
-
 }
