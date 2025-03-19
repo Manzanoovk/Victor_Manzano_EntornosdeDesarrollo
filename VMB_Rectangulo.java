@@ -4,6 +4,8 @@ public class VMB_Rectangulo {
     private double ladoB;
     private String color;
 
+    // Aqui esta el Constructor
+
     public VMB_Rectangulo() {
     }
 
@@ -14,6 +16,7 @@ public class VMB_Rectangulo {
         this.ladoB = ladoB;
     }
 
+    // Aqui estan los getter u setter
     public double getLadoA() {
         return ladoA;
     }
@@ -38,6 +41,7 @@ public class VMB_Rectangulo {
         this.color = color;
     }
 
+    // Aqui esta el toString
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();

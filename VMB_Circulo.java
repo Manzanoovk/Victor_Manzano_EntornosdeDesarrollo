@@ -3,6 +3,7 @@ public class VMB_Circulo {
     private double radio;
     private String color;
 
+    // Aqui esta el Constructor
     public VMB_Circulo() {
     }
 
@@ -12,6 +13,7 @@ public class VMB_Circulo {
         this.radio = radio;
     }
 
+    // Aqui estan los getter u setter
     public double getRadio() {
         return radio;
     }
@@ -28,6 +30,7 @@ public class VMB_Circulo {
         this.color = color;
     }
 
+    // Aqui esta el toString
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
